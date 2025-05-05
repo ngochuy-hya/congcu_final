@@ -1,0 +1,19 @@
+# IDE
+.idea/
+*.iml
+
+# Build output
+target/
+build/
+*.class
+*.log
+
+# Git
+.git
+.gitignore
+
+# Mac
+.DS_Store
+
+# WAR files (nếu bạn không copy từ ngoài)
+!FurnitureShop_11_11_14h-1.0.war
