@@ -20,11 +20,11 @@
       <div class="collapse navbar-collapse" id="navbarsFurni">
         <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
           <li class="nav-item ">
-            <a class="nav-link" href="../indexServlet">Trang Chủ</a>
+            <a class="nav-link" href="../indexServlet">HOME</a>
           </li>
-          <li><a class="nav-link" href="/KhachHang/about.jsp">Về Chúng Tôi</a></li>
+          <li><a class="nav-link" href="/KhachHang/about.jsp">MY PAGE</a></li>
           <li><a class="nav-link" href="../shopServlet">Mua Hàng</a></li>
-          <li><a class="nav-link" href="../feedbackServlet">Xem Đánh Giá</a></li>
+          <li><a class="nav-link" href="../feedbackServlet">REVIEW</a></li>
           <% if (session.getAttribute("customer") != null) { %>
           <li>
             <a class="nav-link" href="<%= request.getContextPath() %>/Staff/loadStaffChatList">Chat (KH)</a>
